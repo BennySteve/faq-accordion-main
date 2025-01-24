@@ -1,0 +1,53 @@
+body{
+    background: url('assets/images/background-pattern-desktop.svg'), hsl(275, 100%, 97%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:top ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+button{
+    border: none;
+    background: none;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 95% 5%;
+    justify-items: start;
+    gap: 10px;
+    width: 90%;
+}
+
+button:hover{
+    color: #AD28EB;
+}
+
+.star{
+    margin-right: 20px;
+}
+
+.head{
+    display: flex;
+
+}
+
+.card{
+    background-color: white;
+    border-radius: 20px;
+    width: 45%;
+    padding: 25px 20px;
+}
+
+.query{
+    margin: 5px 20px;
+    border-bottom: 1px solid grey;
+    display: flex;
+}
+
+.hide{
+    display:none;
+}
